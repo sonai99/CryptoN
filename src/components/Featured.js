@@ -23,7 +23,7 @@ const Featured = () => {
     if (!data) return null
 
     return (
-        <div className='featured'>
+        <div className='featured' id='featured'>
             <div className='container'>
                 {/* Left */}
                 <div className='left'>
