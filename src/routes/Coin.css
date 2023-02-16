@@ -9,16 +9,17 @@
     border-radius: 8px;
 }
 .back{
-    /* margin: auto; */
-    position: absolute;
-    right: 0;
-    margin-right: 8rem;
-    padding: 8px 6px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: inherit;
+    /* right: 0; */
+    /* margin-right: 8rem; */
+    padding: 5px 6px;
     border: 1px solid var(--primary);
     /* background-color: var(--primary); */
     color: var(--primary);
-    border-radius: 8px;
-    font-size: 1.1rem;
+    border-radius: 4px;
+    font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
 }
@@ -120,11 +121,7 @@ th {
 
     
 }
-@media screen and (max-width: 500px) {
-    .back{
-        margin-bottom: 4rem;
-    }
-}
+
 
 
 
