@@ -28,8 +28,8 @@ const Coin = () => {
 
   return (
       <div>
-            <button class="back" onClick={goBack}>Go back</button>
           <div className='coin-container'>
+            <button class="back" onClick={goBack}>Go back</button>
               <div className='content'>
                   <h1>{coin.name}</h1>
               </div>
